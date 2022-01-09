@@ -203,6 +203,26 @@ class CreateCourseService {
 
 >> Lembrete nesse exemplo para cada alteração no código é necessário usar $ *` yarn tsc`* seguido do $ *` node dist/server.js`*
 
+---
+
+## Para otimizar a conversão do ts para js :
+
+Biblioteca que vai auxiliar, aqui instalada como dependência de desenvolvimento.
+
+```bash
+yarn add ts-node-dev -D
+
+```
+
+Lembrando de adicionar no *`package.json`* como no exemplo:
+
+```json
+"scripts": {
+    "dev": "ts-node-dev src/server.ts"
+}
+
+```
+
 
 
 
