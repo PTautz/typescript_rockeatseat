@@ -218,7 +218,7 @@ Lembrando de adicionar no *`package.json`* como no exemplo:
 
 ```json
 "scripts": {
-    "dev": "ts-node-dev -- transpile-only --ignore-watch node_modules --respawn src/server.ts"
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
 }
 
 ```
